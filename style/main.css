@@ -1,0 +1,642 @@
+/*  Bu saytning kodlari Mukhammadjon Alijonov tomonidan yozilgan     */
+/*  3-chi shaxslar tomonidan qonunga xilof tarzda foydalanish taqiqlanadi   */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Intro  */
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+.intro{
+    background-image: url(../images/back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 920px;
+}
+header{
+    padding-top: 30px;
+}
+nav{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.navbar a{
+    margin-right: 40px;
+    text-decoration-line: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: 0.8s;
+}
+.navbar a:hover{
+    color: #FFA3A3;
+}
+.login button{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #381DDB;
+    border: 1px solid #F9FBFD;
+    padding: 8px 16px;
+    background: #F9FBFD;
+    vertical-align: middle;
+    transition: 0.8s;
+}
+.login button:hover{
+    border: 1px solid #381DDB;
+    margin-left: 20px;
+}
+.menu-btn{
+    display: none;
+}
+
+
+
+/*  Main Intro  */
+.main-intro{
+    margin: 140px 0;
+    display: flex;
+    align-items: center;
+}
+.main-intro .main-label{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.main-intro .main-label svg{
+    margin-right: 10px;
+}
+.main_title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    text-transform: capitalize;
+    color: #FFA3A3;
+    width: 570px;
+    padding: 20px 0 40px;
+}
+.main_information{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding-bottom: 80px;
+    width: 470px;
+}
+.btn_read-more{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFA3A3;
+}
+.btn_read-more svg{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+
+
+
+
+/*Main-form*/
+.main-form{
+    width: 470px;
+    height: 566px;
+    background: #FFFFFF;
+    position: relative;
+    box-shadow: 0px 20px 100px rgba(34, 34, 34, 0.15);
+}
+.form{
+    padding: 60px 0 60px 60px;
+}
+.form_title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+    color: #222222;
+    padding-bottom: 30px;
+}
+.form input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 12px 14px;
+    width: 260px;
+    opacity: 0.2;
+    border: 1px solid #222222;
+    box-sizing: border-box;
+}
+.form input::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+    opacity: 1;
+}
+.form input:focus{
+    outline: none;
+}
+.form button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    padding: 14px 28px;
+    border: none;
+    background: #381DDB;
+    box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
+    margin: 10px 0 30px;
+}
+.form p{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #222222;
+    opacity: 0.5;
+}
+.right-bg{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+.right-img{
+    position: absolute;
+    right: 10px;
+    bottom: 60px;
+}
+
+
+
+
+
+
+/*  Main section    */
+.section-post{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 140px;
+}
+.section-text{
+    text-align: right;
+}
+.section-text > svg {
+    margin-bottom: 30px;
+}
+.section_title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 130%;
+    color: #222222;
+}
+.section_paragraph{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    padding: 40px 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #222222;
+}
+.hr-line{
+    margin: 100px 0;
+    display: block;
+    width: 100%;
+}
+svg.hr-line:nth-child(1){
+    margin-top: 0;
+}
+.mr-top0{
+    margin-top: 0;
+}
+
+
+/*      Section Advantage       */
+.text-center{
+    text-align: center;
+}
+.section-advantage{
+    margin: auto;
+    width: 80%;
+}
+.advantages{
+    display: flex;
+    justify-content: space-between;
+}
+.adv-item{
+    width: 30%;
+    padding: 30px;
+    border: none;
+}
+.adv-title{
+    text-align: left;
+    color: #222222;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+}
+.adv-p{
+    text-align: left;
+    color: #222222;
+    padding: 16px 0 32px 0;
+}
+.adv-item  svg:first-child{
+    margin-bottom: 30px;
+}
+.adv-item:hover{
+    background-color: #FFA3A3;
+}
+.adv-item:hover .adv-p, .adv-item:hover .adv-title, .adv-item:hover svg path{
+    color: #FFFFFF;
+    fill: #FFFFFF;
+}
+
+
+
+
+/*Solutions*/
+.solutions{
+    align-items: center;
+    padding-top: 0;
+}
+.solutions > div.section-text{
+    text-align: left;
+}
+.solutions > img{
+    width: 90%;
+}
+.solutions > div.section-text > h4.section_title{
+    font-size: 28px;
+}
+.solutions span svg{
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.solutions span a{
+    text-decoration-line: none;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #381DDB;
+}
+
+
+
+
+
+/*      Subscribe Email     */
+.subscribe-email{
+    background: #222222;
+    padding: 80px 180px;
+}
+.subscribe-email > .section_title{
+    color: white;
+    text-align: center;
+}
+.subscribe-email > .section_paragraph{
+    color: white;
+    text-align: center;
+    opacity: 0.7;
+    width: 70%;
+    margin: auto;
+}
+.subscribe-email > .section_paragraph:last-child{
+    opacity: 0.4;
+    padding: 30px 0 0 0;
+}
+.subscribe-email form{
+    display: flex;
+    justify-content: center;
+}
+.subscribe-email form input{
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 0.2;
+    border: 1px solid #222222;
+    box-sizing: border-box;
+    padding: 12px 24px;
+    outline: none;
+}
+.subscribe-email form input::placeholder{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.subscribe-email form button{
+    background: #FC5252;
+    box-shadow: 0px 10px 30px rgba(56, 29, 219, 0.2);
+    border: none;
+    box-sizing: border-box;
+    padding: 12px 24px;
+    outline: none;
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+
+
+
+/*      Tools we use     */
+.our-tools > .section_title{
+    text-align: center;
+    padding: 140px 0 80px;
+}
+.tools{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.tool{
+    text-decoration-line: none;
+    margin: 0 30px;
+    width: 270px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+.tool:hover{
+    background: #f8f8f8;
+}
+.our-tools > span{
+    width: 130px;
+    display: block;
+    margin: 60px auto;
+}
+
+
+
+/*      Footer     */
+footer{
+    padding: 60px;
+    background: rgba(34, 34, 34, 0.03);
+    display: flex;
+    justify-content: space-between;
+}
+.logo_side{
+    width: 25%;
+}
+.logo_side p{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 18px;
+    color: #222222;
+    opacity: 0.3;
+    margin-top: 30px;
+}
+.navbar_side a{
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+}
+.navbar_side button{
+    background-color: #f8f8f8;
+}
+.socials{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-top: 40px;
+}
+.link{
+    margin-left: 30px;
+}
+
+
+
+
+
+@media only screen and (max-width: 1180px){
+
+    /*      Container (max-width: 1180px)    */
+    .container{
+        max-width: 90%;
+    }
+
+    /*      Intro section (max-width: 1180px)    */
+    .intro {
+        background-image: url(../images/background.png);
+        background-size: cover;
+        height: 1080px;
+    }
+    .login button{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        border: 1px solid #ffffff54;
+        outline: none;
+        background: transparent;
+    }
+    .login button:hover{
+        border: 1px solid white;
+        margin-left: 0;
+    }
+    .main-intro {
+        margin: 60px 0;
+        display: block;
+    }
+    .main-text{
+        margin: auto;
+        width: 90%;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    .main_title{
+        width: 80%;
+        margin: auto;
+    }
+    .main_information{
+        width: 60%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+    .main-form{
+        margin: auto;
+    }
+
+
+    /*      Section-post  (max-width: 1180px)    */
+    .section-post{
+        padding-top: 160px;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-text{
+        text-align: center;
+        width: 65%;
+        margin: auto;
+    }
+
+
+    /*      Solutions (max-width: 1180px)    */
+    .solutions{
+        padding-top: 0;
+    }
+
+    /*      Footer (max-width: 1180px)    */
+    .navbar_side .login{
+        display: none;
+    }
+    .link{
+        margin-right: 40px;
+        margin-left: 0;
+    }
+    .logo_side{
+        width: 40%;
+    }
+}
+
+
+@media only screen and (max-width: 880px){
+
+    /*      Container (max-width: 880px)    */
+    .container{
+        max-width: 90%;
+    }
+
+
+    /*      Header (max-width: 880px)    */
+    .intro{
+        height: 920px;
+    }
+    header .navbar a{
+        display: none;
+    }
+    header .navbar a:first-child{
+        display: inline-block;
+    }
+    header .login button{
+        display: none;
+    }
+    header .login button:last-child{
+        display: inline-block;
+    }
+
+
+    /*      Header Intro section (max-width: 880px)    */
+    .main-label{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .main_title{
+        font-size: 42px;
+        line-height: 51px;
+    }
+    .main_information{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+
+    /*      Body first section (max-width: 880px)    */
+    .body-section{
+        padding-top: 60px;
+    }
+    .section-text{
+        width: 75%;
+    }
+    .section_title{
+        font-size: 28px;
+    }
+    .section_paragraph{
+        font-size: 14px;
+    }
+
+
+    /*      Advantages (max-width: 880px)    */
+    .advantages{
+        display: block;
+    }
+    .adv-item{
+        width: 100%;
+    }
+
+
+    /*      Subscribe Email section (max-width: 880px)    */
+    .subscribe-email{
+        padding: 30px 25px 20px;
+    }
+
+
+    /*      Footer (max-width: 880px)    */
+    footer{
+        display: block;
+        padding: 40px;
+    }
+    .logo_side {
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+    .navbar_side nav{
+        display: none;
+    }
+    .socials{
+        justify-content: space-around;
+    }
+    .socials a{
+        margin-right: 0;
+    }
+}
+
+@media only screen and (max-width: 634px) {
+    .body-section {
+        padding-top: 100px;
+    }
+}
+@media only screen and (max-width: 573px) {
+    .body-section {
+        padding-top: 130px;
+    }
+}
+@media only screen and (max-width: 530px) {
+    .body-section {
+        padding-top: 160px;
+    }
+}
+@media only screen and (max-width: 431px) {
+    .body-section {
+        padding-top: 220px;
+    }
+}
